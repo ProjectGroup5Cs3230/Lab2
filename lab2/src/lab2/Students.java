@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lab2cs3230;
+package lab2;
+
+import java.util.ArrayList;
 
 /**
  *
  * @author Owner
  */
-public class Lab2Cs3230 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public class Students {
+    
+    protected String firstname;
+    protected String lastname;
+    protected int score;
+    ArrayList<String> greetings = new ArrayList<String>();
     
 }

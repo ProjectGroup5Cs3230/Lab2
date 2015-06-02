@@ -7,14 +7,26 @@ public class students
 {
 
 
-    protected String firstname;
-    protected String lastname;
-    protected int score;
-    ArrayList<String> greetings = new ArrayList<String>();
+    protected String FirstName;
+    protected String Lastname;
+    protected int Score;
+    ArrayList<String> Greetings = new ArrayList<String>();
+
+    public students (String FirstName, String LastName, int Score)
+    {
+        this.FirstName = FirstName;
+        this.LastName = LastName;
+        this.Score = Score;
+        Greetings = new ArrayList<String>();
+    }
+
+    //Creates file object for user's choice.
+    File inputFile;
+    inputFile = chooser.getSelectedFile();
 
 
 
 
 
-
+}
 }

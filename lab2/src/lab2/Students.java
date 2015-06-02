@@ -18,4 +18,11 @@ public class Students {
     protected int score;
     ArrayList<String> greetings = new ArrayList<String>();
     
+    public Students(String firstname, String lastname){
+       //load value given to use from class list 
+       this.firstname = firstname;
+       this.lastname = lastname;       
+    
+    }
+    
 }

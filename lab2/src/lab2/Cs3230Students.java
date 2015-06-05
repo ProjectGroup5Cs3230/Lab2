@@ -5,32 +5,49 @@
  */
 package lab2;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
+
 
 
 public class Cs3230Students {
     
     protected List<Students> students;
-    protected String[] names;
+    protected String[] group1;
+    protected String[] group2;
+    protected String[] group3;
+    protected String[] group4;
+    protected String[] group5;
+    protected String[] group6;
     
-    public Cs3230Students(){
+    public Cs3230Students()
+    {
         //construct list of cs3230 students
-        this.names = new String[]{"Clint Fowler","Mat Brewer","Tyler Cazier","Chris Strickland"};
-        Set<String> classNames = new HashSet<String>(Arrays.asList(this.names));
-        //set hash to make values unique
-        for (String name: classNames){
+        this.group1 = new String[]{"Aaron Calder","Jarad Elzinga"};
+        this.group2 = new String[]{"Justin Walker","Michael Brown"};
+        this.group3 = new String[]{"Christopher Strickland","unknown student"};
+        this.group4 = new String[]{"Clint Fowler","Kenneth Adair"};
+        this.group5 = new String[]{"Mat Brewer","Tyler Cazier"};
+        this.group6 = new String[]{"Andrew Gray","Moselle Bair"};
         
-            String[] splitname = name.split(" ");
-            Students newStudent = new Students(splitname[0],splitname[1]);
-            students.add(newStudent);
-        }
+    }    
+    public void giveNames()
+        {
+            Set<String> classNames = new HashSet<String>(Arrays.asList(this.group5));
+        //set hash to make values unique
+            for (String names: classNames)
+            {
+        
+                String[] splitname = names.split(" ");
+                //Students newStudent1 = new Students(this.group5[0]);
+                //students.add(newStudent1);
+                //Students newStudent2 = new Students();
+                //students.add(newStudent2);
+            }
             
+        }
+       
+}
+    
+    
+    
 
-}
-    
-    
-    
-}

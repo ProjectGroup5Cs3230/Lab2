@@ -1,32 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2346c5ee-8134-4d9b-8d11-30d75d3c9e5e" name="Default" comment="Added comments to Student.java.  Renamed methods, fields , and classes.  Also, added getters, setters and ToString.  Moved instantiation to lab2 (Now CS3230StudentChat).">
-      <change type="DELETED" beforePath="C:\Users\Tyler\IdeaProjects\Lab2\.idea\Lab2.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Tyler\IdeaProjects\Lab2\lab2\src\lab2\Lab2.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Tyler\IdeaProjects\Lab2\lab2\src\lab2\Student.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
-    <list id="051f9740-4d17-4b26-8125-1e3749d97b15" name="Rejected commit: Default" comment="Added comments to Student.java.  Renamed methods, fields , and classes.  Also, added getters, setters and ToString.  Moved instantiation to lab2 (Now CS3230StudentChat).">
+    <list default="true" id="2346c5ee-8134-4d9b-8d11-30d75d3c9e5e" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CS3230StudentChat.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Student.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Test.java" />
       <change type="MOVED" beforePath="C:\Users\Tyler\IdeaProjects\Lab2\lab2\randomSentences.txt" afterPath="$PROJECT_DIR$/src/randomSentences.txt" />
       <change type="MOVED" beforePath="C:\Users\Tyler\IdeaProjects\Lab2\lab2\src\lab2\MainWindowFrame.java" afterPath="$PROJECT_DIR$/src/MainWindowFrame.java" />
       <change type="MOVED" beforePath="C:\Users\Tyler\IdeaProjects\Lab2\lab2\src\lab2\WorkGroup.java" afterPath="$PROJECT_DIR$/src/WorkGroup.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list id="051f9740-4d17-4b26-8125-1e3749d97b15" name="Rejected commit: Default" comment="Added comments to Student.java.  Renamed methods, fields , and classes.  Also, added getters, setters and ToString.  Moved instantiation to lab2 (Now CS3230StudentChat)." />
     <ignored path="lab2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <file path="$PROJECT_DIR$/src/MainWindowFrame.java" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,47 +34,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WorkGroup.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WorkGroup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#1863#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CS3230StudentChat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CS3230StudentChat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#1472#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Student.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="118" selection-end-column="5" />
               <folding>
-                <element signature="e#0#4058#0" expanded="true" />
+                <element signature="docComment;class#Student#0" expanded="false" />
+                <element signature="method#Student#0;class#Student#0" expanded="false" />
+                <element signature="method#Student#1;class#Student#0" expanded="false" />
+                <element signature="docComment;method#toString#0;class#Student#0" expanded="false" />
+                <element signature="docComment;method#getFirstName#0;class#Student#0" expanded="false" />
+                <element signature="docComment;method#getLastName#0;class#Student#0" expanded="false" />
+                <element signature="docComment;method#getName#0;class#Student#0" expanded="false" />
+                <element signature="docComment;method#getScore#0;class#Student#0" expanded="false" />
+                <element signature="docComment;method#setFirstName#0;class#Student#0" expanded="false" />
+                <element signature="docComment;method#setLastName#0;class#Student#0" expanded="false" />
+                <element signature="docComment;method#setScore#0;class#Student#0" expanded="false" />
+                <element signature="docComment;method#printGreetings#0;class#Student#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainWindowFrame.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WorkGroup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WorkGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="96" column="36" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#3063#0" expanded="true" />
+                <element signature="method#WorkGroup#0;class#WorkGroup#0" expanded="false" />
+                <element signature="docComment;method#toString#0;class#WorkGroup#0" expanded="false" />
+                <element signature="docComment;method#getGroupName#0;class#WorkGroup#0" expanded="false" />
+                <element signature="docComment;method#setGroupName#0;class#WorkGroup#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CS3230StudentChat.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CS3230StudentChat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.54046243">
+              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#1640#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainWindowFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainWindowFrame.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -109,13 +125,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/src/Student.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/WorkGroup.java" />
-        <option value="$PROJECT_DIR$/src/CS3230StudentChat.java" />
         <option value="$PROJECT_DIR$/src/MainWindowFrame.java" />
+        <option value="$PROJECT_DIR$/src/Student.java" />
+        <option value="$PROJECT_DIR$/src/WorkGroup.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/CS3230StudentChat.java" />
       </list>
     </option>
   </component>
@@ -539,12 +555,19 @@
       <created>1433708828112</created>
       <option name="number" value="Default" />
       <updated>1433708828112</updated>
-      <workItem from="1433708835073" duration="2062000" />
+      <workItem from="1433708835073" duration="7281000" />
     </task>
+    <task id="LOCAL-00001" summary="Added comments to Student.java.  Renamed methods, fields , and classes.  Also, added getters, setters and ToString.  Moved instantiation to lab2 (Now CS3230StudentChat).">
+      <created>1433710911011</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1433710911011</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2062000" />
+    <option name="totallyTimeSpent" value="7281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="22" width="1346" height="688" extended-state="0" />
@@ -552,13 +575,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32854578" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854578" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32854578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -584,7 +607,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added comments to Student.java.  Renamed methods, fields , and classes.  Also, added getters, setters and ToString.  Moved instantiation to lab2 (Now CS3230StudentChat)." />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Student.java</url>
+          <line>62</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Student.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -608,41 +646,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/MainWindowFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_31/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33236995">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
           <folding>
-            <element signature="e#0#4058#0" expanded="true" />
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CS3230StudentChat.java">
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1472#0" expanded="true" />
-          </folding>
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WorkGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="96" column="36" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
           <folding>
-            <element signature="e#0#1863#0" expanded="true" />
+            <element signature="e#0#3063#0" expanded="true" />
+            <element signature="method#WorkGroup#0;class#WorkGroup#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#WorkGroup#0" expanded="false" />
+            <element signature="docComment;method#getGroupName#0;class#WorkGroup#0" expanded="false" />
+            <element signature="docComment;method#setGroupName#0;class#WorkGroup#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainWindowFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="118" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;class#Student#0" expanded="false" />
+            <element signature="method#Student#0;class#Student#0" expanded="false" />
+            <element signature="method#Student#1;class#Student#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#Student#0" expanded="false" />
+            <element signature="docComment;method#getFirstName#0;class#Student#0" expanded="false" />
+            <element signature="docComment;method#getLastName#0;class#Student#0" expanded="false" />
+            <element signature="docComment;method#getName#0;class#Student#0" expanded="false" />
+            <element signature="docComment;method#getScore#0;class#Student#0" expanded="false" />
+            <element signature="docComment;method#setFirstName#0;class#Student#0" expanded="false" />
+            <element signature="docComment;method#setLastName#0;class#Student#0" expanded="false" />
+            <element signature="docComment;method#setScore#0;class#Student#0" expanded="false" />
+            <element signature="docComment;method#printGreetings#0;class#Student#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CS3230StudentChat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54046243">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#1640#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

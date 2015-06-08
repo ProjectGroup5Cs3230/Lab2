@@ -11,19 +11,27 @@
 import java.util.*;
 
 
-
+/**
+ * Allows the creation of a 'WorkGroup' Object.  Each 'WorkGroup' has a group name, an array of students, and an integer
+ * that signifies how many student responses should be printed when call the groupChat method.  There is a function
+ * that calculates this number and another function that simulates a chat conversation between all 'Student' objects
+ * in the group's set.  There is cap of 100 responses from each student.
+ *
+ * @author Owners - Mat Brewer and Tyler Cazier
+ * 5/26/15
+ */
 public class WorkGroup {
 
     private String groupName;
-    ArrayList<Student> studentGroup;
-    private int numOfGreetings = 0;
+    HashSet<Student> studentGroup;
+    private int numOfGreetings;
 
     // Constructor
     public WorkGroup (String groupName)
     {
         this.groupName = groupName;
-        studentGroup = new ArrayList<>();
-        numOfGreetings = 0;
+        studentGroup = new HashSet<>();
+        numOfGreetings = 100; // Put a cap on the number greetings each 'Student' will output to the console.
     }
 
     /**
@@ -65,7 +73,8 @@ public class WorkGroup {
 
     /**
      * Prints the first greeting of each 'Student' in the list, then the second, and so on until the 'Student' with the
-     * smallest number of greetings has printed all greetings to the console.
+     * smallest number of greetings has printed all greetings to the console. There is a cap of 100 greetings per
+     * student.
      */
     public void groupChat ()
     {
@@ -96,9 +105,6 @@ public class WorkGroup {
     {
         if (studentGroup.size() > 0)
         {
-            // Set numOfGreetings to the size of the first students greetings array.
-            numOfGreetings = studentGroup.get(0).greetings.size();
-
             // If there is a student with fewer greetings, update the size of numOfGreetings
             for (Student student : this.studentGroup)
             {

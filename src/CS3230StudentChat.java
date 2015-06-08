@@ -4,15 +4,21 @@
  * conversations.  Each student has five conversation greetings. Each student takes a turn outputing a greeting to the
  * console until each of the student's five greetings have been written to the console.
  *
+ * Lab 3 - Build a JFrame with a scrollable text field, a scrollable input field, and a 'Send' button. Outputs now go
+ * to a JFrame text field.
+ *
  * Created By - Mat Brewer and Tyler Cazier
- * 5/26/15
+ * 6/7/15
  */
 
 import java.util.ArrayList;
 
+
 /**
+ * This class is used to create arrays of responses, students, and groups and to initiate group chats.
  *
- * @author Owner
+ * @author Owners - Mat Brewer and Tyler Cazier
+ * 5/26/15
  */
 public class CS3230StudentChat {
 
@@ -21,6 +27,8 @@ public class CS3230StudentChat {
      */
     public static void main(String[] args)
     {
+        // Create Window Frame
+        MainWindowFrame chatWindow = new MainWindowFrame();
 
         // Create Groups
         WorkGroup projectGroup1 = new WorkGroup("ProjectGroup1");
@@ -125,6 +133,7 @@ public class CS3230StudentChat {
         projectGroup6.studentGroup.add(moselleBair);
 
         // Start Chats
+
         projectGroup1.groupChat();
         projectGroup2.groupChat();
         projectGroup3.groupChat();

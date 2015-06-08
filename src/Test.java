@@ -4,15 +4,20 @@
  * conversations.  Each student has five conversation greetings. Each student takes a turn outputing a greeting to the
  * console until each of the student's five greetings have been written to the console.
  *
+ * Lab 3 - Build a JFrame with a scrollable text field, a scrollable input field, and a 'Send' button. Outputs now go
+ * to a JFrame text field.
+ *
  * Created By - Mat Brewer and Tyler Cazier
- * 5/26/15
+ * 6/7/15
  */
+
 import java.util.ArrayList;
 
 /**
  * This class was used for testing the Student and WorkGroup classes of this package.
  *
- * Created by Tyler on 6/7/2015.
+ * @author Owners - Mat Brewer and Tyler Cazier
+ * 5/26/15
  */
 public class Test
 {

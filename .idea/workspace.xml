@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2346c5ee-8134-4d9b-8d11-30d75d3c9e5e" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Tyler\IdeaProjects\Lab2\src\randomSentences.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CS3230StudentChat.java" afterPath="$PROJECT_DIR$/src/CS3230StudentChat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainWindowFrame.java" afterPath="$PROJECT_DIR$/src/MainWindowFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Student.java" afterPath="$PROJECT_DIR$/src/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test.java" afterPath="$PROJECT_DIR$/src/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WorkGroup.java" afterPath="$PROJECT_DIR$/src/WorkGroup.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="051f9740-4d17-4b26-8125-1e3749d97b15" name="Rejected commit: Default" comment="Added comments to Student.java.  Renamed methods, fields , and classes.  Also, added getters, setters and ToString.  Moved instantiation to lab2 (Now CS3230StudentChat)." />
@@ -582,7 +576,7 @@
       <created>1433708828112</created>
       <option name="number" value="Default" />
       <updated>1433708828112</updated>
-      <workItem from="1433708835073" duration="16090000" />
+      <workItem from="1433708835073" duration="16130000" />
     </task>
     <task id="LOCAL-00001" summary="Added comments to Student.java.  Renamed methods, fields , and classes.  Also, added getters, setters and ToString.  Moved instantiation to lab2 (Now CS3230StudentChat).">
       <created>1433710911011</created>
@@ -602,11 +596,17 @@
       <option name="project" value="LOCAL" />
       <updated>1433724510645</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Preparing to move conversations to Java window.">
+      <created>1433727486775</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1433727486775</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16090000" />
+    <option name="totallyTimeSpent" value="16130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="22" width="1346" height="688" extended-state="0" />
@@ -645,7 +645,8 @@
     <MESSAGE value="Added comments to Student.java.  Renamed methods, fields , and classes.  Also, added getters, setters and ToString.  Moved instantiation to lab2 (Now CS3230StudentChat)." />
     <MESSAGE value="Added comments to WorkGroup.java.  Renamed methods, fields , and classes.  Created methods for determining the correct number of chat responses to cycle through and a chat method that displays group name and cycles through greetings with student name." />
     <MESSAGE value="Lab 2 complete.  The Test java file was used for Testing.  CS3230StudentChat is used to create the students and groups and to initiate the conversations.  Modified WorkGroup to use a hash set of Student objects to guarantee uniqueness." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 2 complete.  The Test java file was used for Testing.  CS3230StudentChat is used to create the students and groups and to initiate the conversations.  Modified WorkGroup to use a hash set of Student objects to guarantee uniqueness." />
+    <MESSAGE value="Preparing to move conversations to Java window." />
+    <option name="LAST_COMMIT_MESSAGE" value="Preparing to move conversations to Java window." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

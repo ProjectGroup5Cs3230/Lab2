@@ -58,9 +58,9 @@ public class CS3230StudentChat {
             michaelBResponses.add("See ya!");
         ArrayList<String> aaronCResponses= new ArrayList<>();
             aaronCResponses.add("Hey!");
-            aaronCResponses.add("Hey!");
-            aaronCResponses.add("Hey!");
-            aaronCResponses.add("Hey!");
+            aaronCResponses.add("is that right?");
+            aaronCResponses.add("feels like a great day");
+            aaronCResponses.add("one is the hand is worth two in the bush");
             aaronCResponses.add("Fairwell!");
         ArrayList<String> chrisSResponses= new ArrayList<>();
             chrisSResponses.add("Bonjour!");
@@ -76,9 +76,9 @@ public class CS3230StudentChat {
             clintonFResponses.add("Later!");
         ArrayList<String> kennethAResponses= new ArrayList<>();
             kennethAResponses.add("Greetings!");
-            kennethAResponses.add("Greetings!");
-            kennethAResponses.add("Greetings!");
-            kennethAResponses.add("Greetings!");
+            kennethAResponses.add("What a great day");
+            kennethAResponses.add("Something smells bad");
+            kennethAResponses.add("Its the smell of java :-(");
             kennethAResponses.add("So long!");
         ArrayList<String> mathewBResponses= new ArrayList<>();
             mathewBResponses.add("Ciao!");

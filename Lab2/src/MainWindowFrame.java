@@ -35,23 +35,23 @@ public class MainWindowFrame extends JFrame
     public  MainWindowFrame()
     {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setSize(new Dimension(400,600));
+        setSize(new Dimension(500,600));
         setVisible(true);
         JPanel panel = new JPanel();
-        panel.setPreferredSize(new Dimension(350,550));
+        panel.setPreferredSize(new Dimension(450,550));
         panel.setBackground(Color.LIGHT_GRAY);
         
         JTextArea input1 = new JTextArea();
-        JScrollPane jp = new JScrollPane(input1);
-        panel.add(jp);
-        //panel.add(input1);
+        JScrollPane scrollText = new JScrollPane(input1);
+        panel.add(scrollText);
+        
         input1.setEditable(false);
-        input1.setPreferredSize(new Dimension(320,300));
+        scrollText.setPreferredSize(new Dimension(420,300));
         
         JTextField input2 = new JTextField("Enter message here.");
-        input2.setPreferredSize(new Dimension(320,55));
-        JScrollPane jp1 = new JScrollPane(input2);
-        panel.add(jp1);
+        JScrollPane scrollText2 = new JScrollPane(input2);
+        panel.add(scrollText2);
+        scrollText2.setPreferredSize(new Dimension(420,55));
         
         JButton button = new JButton("get chats");
         button.addActionListener(new ActionListener()    

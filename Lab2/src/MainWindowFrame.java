@@ -30,8 +30,9 @@ import javax.swing.JTextField;
 public class MainWindowFrame extends JFrame
 {
     //new MainWindowFrame();
-
-    public MainWindowFrame()
+    CS3230StudentChat a = new CS3230StudentChat();
+    
+    public  MainWindowFrame()
     {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(new Dimension(400,600));
@@ -40,12 +41,15 @@ public class MainWindowFrame extends JFrame
         panel.setPreferredSize(new Dimension(350,550));
         panel.setBackground(Color.LIGHT_GRAY);
         
-        JTextField input1 = new JTextField();
+        JTextArea input1 = new JTextArea();
+        //JScrollPane jp = new JScrollPane(input1);
+        panel.add(input1);
         input1.setPreferredSize(new Dimension(320,300));
         JTextField input2 = new JTextField("Enter message here.");
         input2.setPreferredSize(new Dimension(320,55));
-        panel.add(input1);
-        panel.add(input2);
+        JScrollPane jp1 = new JScrollPane(input2);
+        panel.add(jp1);
+        //input1.setText(a.runChats().toString);
         JButton button = new JButton("send");
         button.addActionListener(new ActionListener()    
         {
@@ -62,8 +66,9 @@ public class MainWindowFrame extends JFrame
         add(panel);
         
         setVisible(true);
-    
+        
 
     }
+    
 
 }

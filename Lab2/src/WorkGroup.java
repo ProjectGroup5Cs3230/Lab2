@@ -11,6 +11,7 @@
  * 6/7/15
  */
 
+
 import java.util.*;
 
 
@@ -28,7 +29,7 @@ public class WorkGroup {
     private String groupName;
     HashSet<Student> studentGroup;
     private int numOfGreetings;
-
+    String chat[];
     // Constructor
     public WorkGroup (String groupName)
     {
@@ -79,10 +80,11 @@ public class WorkGroup {
      * smallest number of greetings has printed all greetings to the console. There is a cap of 100 greetings per
      * student.
      */
-    public void groupChat ()
+    public void groupChat () 
     {
         // Calculate the number of greetings to print.
         findGreetingsNumber();
+        
 
         // Print group name.
         System.out.println(groupName + "\n");
@@ -92,11 +94,14 @@ public class WorkGroup {
         {
             for (Student student : this.studentGroup)
             {
+                //chat[i] = student.getName() + ": " + student.greetings.get(i);
                 System.out.println(student.getName() + ": " + student.greetings.get(i));
             }
+            
         }
-
+        
         System.out.println();
+        
     }
 
     /**

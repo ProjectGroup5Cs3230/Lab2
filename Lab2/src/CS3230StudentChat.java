@@ -11,7 +11,9 @@
  * 6/7/15
  */
 
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
 
 
 /**
@@ -25,11 +27,8 @@ public class CS3230StudentChat {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args)
+    public static void runChats() 
     {
-        // Create Window Frame
-        MainWindowFrame chatWindow = new MainWindowFrame();
-
         // Create Groups
         WorkGroup projectGroup1 = new WorkGroup("ProjectGroup1");
         WorkGroup projectGroup2 = new WorkGroup("ProjectGroup2");
@@ -140,6 +139,16 @@ public class CS3230StudentChat {
         projectGroup4.groupChat();
         projectGroup5.groupChat();
         projectGroup6.groupChat();
+    
+    }
+    public static void main(String[] args) throws IOException
+    {
+        // Create Window Frame
+        MainWindowFrame chatWindow = new MainWindowFrame();
+        
+        runChats();
+
+        
 
     }
     

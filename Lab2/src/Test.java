@@ -11,6 +11,7 @@
  * 6/7/15
  */
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 /**
@@ -21,7 +22,7 @@ import java.util.ArrayList;
  */
 public class Test
 {
-    public static void main(String[] args)
+    public static void main(String[] args) throws IOException
     {
         // Creat an array of greetings for a new student.
         ArrayList<String> testArray = new ArrayList<>();

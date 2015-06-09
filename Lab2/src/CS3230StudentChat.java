@@ -27,7 +27,7 @@ public class CS3230StudentChat {
     /**
      * @param args the command line arguments
      */
-    public static void runChats() 
+    public String runChats() 
     {
         // Create Groups
         WorkGroup projectGroup1 = new WorkGroup("ProjectGroup1");
@@ -132,13 +132,17 @@ public class CS3230StudentChat {
         projectGroup6.studentGroup.add(moselleBair);
 
         // Start Chats
+        
+        StringBuilder chatSequence = new StringBuilder();
 
-        projectGroup1.groupChat();
-        projectGroup2.groupChat();
-        projectGroup3.groupChat();
-        projectGroup4.groupChat();
-        projectGroup5.groupChat();
-        projectGroup6.groupChat();
+        chatSequence.append(projectGroup1.groupChat());
+        chatSequence.append(projectGroup2.groupChat());
+        chatSequence.append(projectGroup3.groupChat());
+        chatSequence.append(projectGroup4.groupChat());
+        chatSequence.append(projectGroup5.groupChat());
+        chatSequence.append(projectGroup6.groupChat());
+        
+        return chatSequence.toString();
     
     }
     public static void main(String[] args) throws IOException
@@ -146,7 +150,6 @@ public class CS3230StudentChat {
         // Create Window Frame
         MainWindowFrame chatWindow = new MainWindowFrame();
         
-        runChats();
 
         
 

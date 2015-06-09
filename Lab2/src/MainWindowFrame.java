@@ -42,22 +42,25 @@ public class MainWindowFrame extends JFrame
         panel.setBackground(Color.LIGHT_GRAY);
         
         JTextArea input1 = new JTextArea();
-        //JScrollPane jp = new JScrollPane(input1);
-        panel.add(input1);
+        JScrollPane jp = new JScrollPane(input1);
+        panel.add(jp);
+        //panel.add(input1);
+        input1.setEditable(false);
         input1.setPreferredSize(new Dimension(320,300));
+        
         JTextField input2 = new JTextField("Enter message here.");
         input2.setPreferredSize(new Dimension(320,55));
         JScrollPane jp1 = new JScrollPane(input2);
         panel.add(jp1);
-        //input1.setText(a.runChats().toString);
-        JButton button = new JButton("send");
+        
+        JButton button = new JButton("get chats");
         button.addActionListener(new ActionListener()    
         {
             @Override
             public void actionPerformed(ActionEvent event)
             {
-                panel.setBackground(Color.BLUE);
-            
+                //panel.setBackground(Color.BLUE);
+                input1.setText(a.runChats());
             }
             
         });

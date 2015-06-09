@@ -80,14 +80,15 @@ public class WorkGroup {
      * smallest number of greetings has printed all greetings to the console. There is a cap of 100 greetings per
      * student.
      */
-    public void groupChat () 
+    public String groupChat () 
     {
         // Calculate the number of greetings to print.
         findGreetingsNumber();
+        StringBuilder sb = new StringBuilder();
         
 
         // Print group name.
-        System.out.println(groupName + "\n");
+        sb.append(this.groupName + "\n");
 
         // Print the first greeting of each student in the list, then the second, and so on.
         for (int i = 0; i < numOfGreetings; i++)
@@ -95,12 +96,15 @@ public class WorkGroup {
             for (Student student : this.studentGroup)
             {
                 //chat[i] = student.getName() + ": " + student.greetings.get(i);
-                System.out.println(student.getName() + ": " + student.greetings.get(i));
+                sb.append(student.getName());
+                sb.append(": ");
+                sb.append(student.greetings.get(i));
+                sb.append("\n");
             }
-            
+            sb.append("\n");
         }
         
-        System.out.println();
+        return sb.toString();
         
     }
 

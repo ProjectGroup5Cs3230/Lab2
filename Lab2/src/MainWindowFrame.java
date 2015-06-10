@@ -16,6 +16,8 @@ import java.awt.*;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.*;
@@ -48,7 +50,7 @@ public class MainWindowFrame extends JFrame
         input1.setEditable(false);
         scrollText.setPreferredSize(new Dimension(420,300));
         
-        JTextField input2 = new JTextField("Enter message here.");
+        JTextArea input2 = new JTextArea("Enter message here.");
         JScrollPane scrollText2 = new JScrollPane(input2);
         panel.add(scrollText2);
         scrollText2.setPreferredSize(new Dimension(420,55));
@@ -64,7 +66,35 @@ public class MainWindowFrame extends JFrame
             }
             
         });
+        
+        
+        input2.addKeyListener(new KeyListener()
+        {
+
+            @Override
+            public void keyTyped(KeyEvent e) 
+            {
+                
+            }
+
+            @Override
+            public void keyPressed(KeyEvent e) 
+            {
+             if((e.getKeyCode() == KeyEvent.VK_ENTER) && ((e.getModifiers() & KeyEvent.CTRL_MASK) != 0))
+             {
+                String s = input2.getText();
+                input1.append(s);
+                input2.setText("\n");
+             }
+            }
+
+            @Override
+            public void keyReleased(KeyEvent e) {
+                
+            }
+        });
         panel.add(button);
+        
         
         add(panel);
         
